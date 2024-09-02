@@ -43,5 +43,3 @@ with open(os.path.join(current_directory, 'flow_logs.txt'), 'w') as file:
 # Writing the lookup table data to lookup_table.csv
 with open(os.path.join(current_directory, 'lookup_table.csv') , 'w') as file:
     file.write(lookup_table_data.strip())
-
-print("到哪了？")
